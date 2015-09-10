@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="TemperatureToEventHub.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TemperatureToEventHub"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+        <StackPanel>
+            <TextBlock x:Name="TB" FontSize="30" Text="loading..." Foreground="White"></TextBlock>
+            <TextBlock x:Name="tbmeg" FontSize="30" Text="" TextWrapping="WrapWholeWords" MaxWidth="400" Foreground="White"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
